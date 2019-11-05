@@ -1,0 +1,22 @@
+.statusContainer {
+  display: flex;
+  justify-items: auto;
+  font-size: 20px;
+}
+.statusContainer img {
+  height: 30px;
+}
+
+.status {
+  position: relative;
+  top: 10px;
+  margin-left: -10px;
+  display: block;
+  width: 200px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.statusImg{
+  margin: 5px 10px 0 0;
+}

@@ -1,0 +1,37 @@
+.selectedPage{
+  font-weight: 500;
+
+}
+.page, .selectedPage{
+  height: 20px;
+  width: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #57ff4c;
+  border-radius: 20px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 3px;
+
+
+}
+
+.paginator{
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+
+}
+button{
+  width: 100px;
+  height: 40px;
+  border: black 1px solid;
+  border-radius: 20px;
+  background-color: #57ff4c;
+  outline: none;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}

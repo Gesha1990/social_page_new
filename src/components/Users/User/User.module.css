@@ -1,0 +1,60 @@
+
+.user {
+  height: 120px;
+  width: 500px;
+  border: 1px solid black;
+  margin: 10px auto;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 100px repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:  'a n n n l'
+                        'a n n n l'
+                        'a n n n l'
+                        'b s s . .';
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.ava {
+  grid-area: a;
+}
+.userAva{
+  margin: 2px 0 2px 2px;
+  height: 90px;
+  width: 90px;
+  border-radius: 60px;
+}
+.name {
+  margin-top: 5px;
+
+  grid-area: n;
+}
+
+.status{
+  grid-area: s;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+.location{
+  grid-area: l;
+  margin: 5px;
+
+}
+.button{
+  grid-area: b;
+  margin: 75px 0 2px 9px;
+  height: 25px;
+  border: none;
+  width: 80px;
+  border-radius: 30px;
+  background-color: #57ff4c;
+  outline: none;
+}
+.button:hover{
+  box-shadow: 2px 5px 8px #000;
+  cursor: pointer;
+
+
+
+}

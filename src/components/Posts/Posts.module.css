@@ -1,0 +1,54 @@
+
+.postsArea {
+  grid-area: posts;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr;
+  grid-template-areas: 'mainPost ' 'postList';
+  margin: 20px 10px 0 20px;
+  border-radius: 40px;
+  background: #f5fafa;
+
+}
+
+.mainPost {
+  grid-area: mainPost;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  background-color: #57ff4c;
+  box-shadow: inset 0 0 8px;
+}
+
+.mainPost textarea {
+  width: 400px;
+  padding: 10px;
+  height: 30px;
+  border-radius: 50px;
+  resize: none;
+  outline: none;
+}
+
+.mainPost button {
+  width: 100px;
+  height: 40px;
+  border: black 1px solid;
+  border-radius: 20px;
+  background-color: #57ff4c;
+  outline: none;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mainPost button:hover{
+  box-shadow: 0 28px 38px rgba(0, 0, 0, 0.25), 0 28px 36px rgba(0, 0, 0, 0.5);
+   cursor: pointer;
+}
+
+.postsList img {
+  width: 40px;
+  grid-area: postList;
+}
+

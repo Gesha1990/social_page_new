@@ -1,0 +1,55 @@
+
+.post {
+  background-color: white;
+  box-shadow: 2px 5px 8px #000;
+  border: 2px #e9eeee solid;
+  border-radius: 30px;
+  height: 150px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+
+.post .ava {
+  height: 70px;
+  width: 70px;
+  border-radius: 80px;
+  margin: 10px;
+}
+
+.name {
+  height: 70px;
+  width: 90px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+
+.icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 20px;
+  left: -170px;
+}
+
+.icon img {
+  height: 20px;
+}
+
+.icon:hover {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+  cursor: pointer;
+}
+
+.textContent {
+  word-wrap: break-word;
+  overflow-x: hidden;
+  border: black 1px solid;
+  border-radius: 20px;
+  margin: 10px 10px 10px 40px;
+  width: 400px;
+  padding: 10px;
+}

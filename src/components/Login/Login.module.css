@@ -1,0 +1,17 @@
+.main{
+  background-color: antiquewhite;
+  grid-area: main;
+  display: grid;
+}
+.form{
+ position: relative;
+  left: 40%;
+}
+.summeryError{
+  color: red;
+}
+
+textarea {
+  resize:none;
+  height: 20px;
+}
